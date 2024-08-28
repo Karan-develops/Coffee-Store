@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-family: "SoDoSans_Light", Helvetica, sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #4b4b4b;
+}
+#currentPage {
+  color: #006241;
+  padding: 5px;
+  border-bottom: 2px solid #006241;
+}
+.ach ul li a:hover {
+  color: #00754a;
+  border-bottom: 2px solid #006241;
+  padding-bottom: 15px;
+}
+input {
+  height: 1rem;
+  width: 15vw;
+  border: none;
+  outline: none;
+  margin-left: 5px;
+}
+.mainPay {
+  overflow: hidden;
+  height: 89.5vh;
+  width: 100vw;
+  background-color: #04452a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav {
+  z-index: 2;
+  background-color: white;
+  width: 100vw;
+  height: 10.5vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid #dee2e6;
+  position: sticky;
+  top: 0;
+}
+#navLogo {
+  height: 2.7rem;
+  width: 2.7rem;
+}
+.anchors {
+  display: flex;
+  justify-content: space-between;
+  width: 20rem;
+  list-style: none;
+}
+.navInput {
+  border: 2px solid #dfdcdc;
+  padding: 0.5rem;
+  border-radius: 200px;
+}
+.navInput:visited {
+  border: 1.7px solid #ff0c0c;
+}
+.ic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
+  width: 2rem;
+  border: 1.7px solid #4b4b4b;
+  border-radius: 100%;
+}
+.ic:hover {
+  cursor: pointer;
+}
+#payInput {
+  border-bottom: 1px solid grey;
+  height: 4vh;
+  width: 40vw;
+}
+#payInput::placeholder {
+  color: rgba(128, 128, 128, 0.491);
+}
+.login {
+  position: relative;
+  height: 68vh;
+  width: 46vw;
+  background: white;
+  opacity: 0.75;
+  border-radius: 30px;
+}
+#log {
+  position: absolute;
+  color: #04452a;
+  top: 13%;
+  left: 4%;
+  font-size: x-large;
+  font-weight: 600;
+}
+#skip {
+  position: absolute;
+  color: #017143;
+  top: 7%;
+  right: 7%;
+  font-size: small;
+  font-weight: bold;
+}
+#skip:hover {
+  cursor: pointer;
+}
+.entries {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: absolute;
+  top: 28%;
+  left: 4%;
+  width: 40rem;
+  font-weight: 100;
+  font-size: small;
+}
+#loginBtn {
+  position: absolute;
+  background: gray;
+  color: white;
+  bottom: 22%;
+  left: 25%;
+  width: 20vw;
+  height: 5vh;
+  border: none;
+  border-radius: 200px;
+}
+#loginBtn:hover {
+  cursor: pointer;
+}
+.last {
+  color: gray;
+  position: absolute;
+  bottom: 6%;
+  left: 28%;
+  font-size: small;
+  font-weight: 100;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

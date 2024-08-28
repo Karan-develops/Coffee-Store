@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  overflow: hidden;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 13vh;
+}
+#landing_logo {
+  height: 11vh;
+  margin-left: 5vw;
+  cursor: pointer;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-right: 5vw;
+}
+.flex-center li {
+  list-style: none;
+  font-weight: 800;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+}
+a:hover {
+  color: #017143;
+}
+main {
+  height: 87vh;
+  display: flex;
+  position: relative;
+}
+.landingText {
+  display: flex;
+  flex-direction: column;
+  width: 38vw;
+  margin-left: 7.2vw;
+  margin-top: 18px;
+}
+#landingTextDiv1 {
+  font-size: 4em;
+  font-weight: 900;
+}
+#landingTextDiv2 {
+  font-size: 4em;
+  font-weight: 900;
+}
+.span2 {
+  color: #017143;
+  font-size: 1.2em;
+}
+
+#landingTextBtn {
+  margin-left: 1vw;
+  font-weight: 500;
+  font-size: large;
+  border: none;
+  border-radius: 40px;
+  padding: 12px 15px;
+  background-color: #017143;
+  color: white;
+  margin-top: 20px;
+  width: 8.8vw;
+  cursor: pointer;
+}
+#landingTextBtn:hover{
+  background-color: #013a22;
+}
+#landingSmallCups {
+  display: flex;
+  position: absolute;
+  bottom: 0%;
+  left: 37%;
+  align-items: flex-end;
+  justify-content: space-around;
+  margin: 10px;
+  height: 24vh;
+  width: 24rem;
+}
+#small1,
+#small2,
+#small3 {
+  transition: transform 0.3s ease;
+}
+#small1:hover,
+#small2:hover,
+#small3:hover {
+  transform: translateY(-18px);
+  cursor: grab;
+}
+#bigCup {
+  position: absolute;
+  bottom: 0;
+  right: 11%;
+  z-index: 1;
+  transition: transform 0.3s ease;
+}
+#bigCup:hover {
+  transform: translateY(-18px);
+  cursor: grab;
+}
+.bg {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 35rem;
+  background-color: #017143;
+  height: 32rem;
+  border-top-left-radius: 100%;
+}
+.landingIcons {
+  display: flex;
+  flex-direction: column;
+  font-size: smaller;
+  align-items: center;
+  filter: invert(1);
+  position: absolute;
+  right: 0%;
+  bottom: 38%;
+  margin-right: 2rem;
+}
+#ico {
+  height: 1.8rem;
+  margin-top: 15px;
+  cursor: pointer;
+}

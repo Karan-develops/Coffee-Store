@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pay.css" />
+    <link rel="shortcut icon" href="Images/starbucks.png" type="image/x-icon" />
+    <title>Pay | Starbucks</title>
+</head>
+<body>
+    <nav>
+        <div><a href="index.html"><img id="navLogo" src="Images/starbucks.png" alt="" /></a></div>
+      <div class="ach">
+        <ul class="anchors">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="gift.html">Gift</a></li>
+            <li><a href="order.html">Order</a></li>
+            <li><a id="currentPage" href="pay.html">Pay</a></li>
+        </ul>
+      </div>
+      <div class="navInput">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" placeholder="Looking for something specific?" />
+      </div>
+      <div class="ic"><i class="fa-regular fa-user"></i></div>
+    </nav>
+    <div class="mainPay">
+        <div class="login">
+            <span id="log">Login</span>
+            <span id="skip">SKIP</span>
+            <div class="entries">
+                <span>USERNAME</span>
+                <input id="payInput" type="text" placeholder="Enter Email ID or Mobile Number *">
+                <br/>
+                <span>PASSWORD</span>
+                <input id="payInput" type="password" placeholder="Enter Password *">
+                <span>Don't have an account? <a style="color: #017143;">SignUp</a></span>
+            </div>
+            <button id="loginBtn">Login</button>
+            <div class="last">
+                <span>Facing trouble logging in? <a style="color: #017143;">Get Help</a></span>
+                <br/>
+                <span>Already registered via WhatsApp? <a style="color: #017143;">Continue Here</a></span>
+            </div>
+        </div>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/d34d1476f6.js"
+      crossorigin="anonymous"
+    ></script>
+</body>
+</html>
